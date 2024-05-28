@@ -1,0 +1,9 @@
+# Exported from Render on 2024-05-28T01:36:29Z
+services:
+- type: web
+  name: ssememedesign
+  runtime: static
+  repo: https://github.com/sseworld/ssememe
+  buildCommand: yarn; yarn build
+  staticPublishPath: dist
+version: "1"
